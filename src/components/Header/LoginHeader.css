@@ -1,0 +1,11 @@
+header {
+  padding: 20px;
+  height: 100px;
+}
+
+header .logo {
+  float: left;
+  height: 100%;
+  width: 200px;
+  background: url("../../img/min/logo_small.png") no-repeat center/contain;
+}

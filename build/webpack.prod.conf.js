@@ -44,9 +44,9 @@ var webpackConfig = merge(baseWebpackConfig, {
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: process.env.NODE_ENV === 'testing'
-        ? 'index.html'
+        ? 'login.html'
         : config.build.index,
-      template: 'index.html',
+      template: './src/page/login.html',
       inject: true,
       minify: {
         removeComments: true,
@@ -79,7 +79,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       chunks: ['vendor']
     })
   ]
-})
+});
 
 if (config.build.productionGzip) {
   var CompressionWebpackPlugin = require('compression-webpack-plugin')
