@@ -1,7 +1,24 @@
-/**
- * Created by 16030117 on 2016/8/4.
- */
+import template from './LoginTpl_1.html';
+import './LoginTpl_1.css';
+
 export default {
-  template : '<div class="hello"><h1>{{ title }}</h1></div>',
-  props: ['title'],
-}
+  template: template,
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    msg: {
+      type: String,
+      required: true
+    },
+    logoImg: {
+      type: String
+    },
+    action:{
+      type: String,
+      required: true
+    }
+  },
+};
+

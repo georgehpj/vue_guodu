@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":[],"mappings":";;AAAA;;;;AACA;;;;;;AAEA,kBAAQ;AACN,MAAI,MADE;AAEN,cAAY,EAAE,kBAAF;AAFN,CAAR","file":"main-compiled.js","sourcesContent":["import Vue from 'vue'\r\nimport App from './components/App/App'\r\n\r\nnew Vue({\r\n  el: 'body',\r\n  components: { App }\r\n});\r\n"]}

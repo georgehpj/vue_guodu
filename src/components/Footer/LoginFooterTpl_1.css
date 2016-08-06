@@ -1,0 +1,12 @@
+.login-footer {
+  width: 80%;
+  min-width:348px;
+  height: 80px;
+  margin: 20px auto 0;
+  padding:10px 0;
+  border-top:1px #aaa solid;
+}
+
+.footer-msg{
+  white-space: nowrap
+}
