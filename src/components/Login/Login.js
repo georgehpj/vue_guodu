@@ -1,5 +1,6 @@
 import template from './LoginTpl_1.html';
 import './LoginTpl_1.css';
+import '../../css/common.css';
 
 export default {
   template: template,
