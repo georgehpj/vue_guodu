@@ -12,7 +12,12 @@ new Vue({
     logoImg: logo,
     loginMsg: '',
     loginAction: 'j_spring_security_check',
-    footerMsg: 'Copyright © 2015国度航服 版权所有 沪ICP备15027843号-1'
+    footerMsg: 'Copyright © 2015国度航服 版权所有 沪ICP备15027843号-1',
+    userNameId: 'j_username',
+    passwordId: 'j_password'
   },
-  components: {Login, LoginFooter}
+  components: {
+    Login,
+    LoginFooter
+  }
 });

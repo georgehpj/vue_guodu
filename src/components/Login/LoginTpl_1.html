@@ -8,10 +8,10 @@
   <div class="msg">
     {{msg}}
   </div>
-  <form action={{action}} class="login-form">
-    <input type="text" placeholder="请输入账号(邮箱或手机号)" class="form-control login-input">
-    <input type="password" placeholder="请输入密码" class="form-control login-input">
-    <input type="submit" class="btn btn-danger" id="login" value="登录">
+  <form class="login-form" action={{action}} method="POST">
+    <input id={{userNameId}} name={{userNameId}} type="text" placeholder="请输入账号(邮箱或手机号)" class="form-control login-input">
+    <input id={{passwordId}} name={{passwordId}} type="password" placeholder="请输入密码" class="form-control login-input">
+    <input type="submit" class="btn btn-danger" id="login" value="登 录">
     <span><a href="">忘记密码了？</a></span>
   </form>
 </div>

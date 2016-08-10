@@ -13,12 +13,18 @@ export default {
       type: String,
       required: true
     },
+    action: {
+      type: String,
+      required: true
+    },
     logoImg: {
       type: String
     },
-    action:{
-      type: String,
-      required: true
+    userNameId: {
+      type: String
+    },
+    passwordId: {
+      type: String
     }
   },
 };
